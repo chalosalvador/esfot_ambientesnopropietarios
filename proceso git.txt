@@ -1,4 +1,4 @@
-crear repositorio en github
+# crear repositorio en github sin .gitignore ni README.md
 
 # inicializar REPOSITORIO LOCAL
 git init
