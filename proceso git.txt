@@ -1,0 +1,18 @@
+crear repositorio en github
+
+# inicializar REPOSITORIO LOCAL
+git init
+git commit -m "primer commit"
+
+# CREAR ARCHIVO README DEL REPOSITORIO
+touch README.md
+echo texto descriptivo del repositorio >> README.md
+git add README.md
+
+# SUBIR AL REPOSITORIO REMOTO (EN GITHUB)
+git remote add origin https://github.com/NOMBRE_DE_USUARIO/NOMBRE_DEL_REPOSITORIO.git
+git push -u origin master
+# INGRESAR USUARIO
+# INGRESAR CONTRASEÑA
+# PARA EVITAR QUE NOS PIDA INGRESAR USUARIO Y CONTRASEÑA CADA VEZ DEBEMOS SEGUIR LOS SIGUIENTES PASOS
+# https://help.github.com/articles/generating-ssh-keys/
