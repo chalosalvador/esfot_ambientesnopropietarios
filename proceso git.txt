@@ -2,12 +2,20 @@
 
 # inicializar REPOSITORIO LOCAL
 git init
-git commit -m "primer commit"
 
 # CREAR ARCHIVO README DEL REPOSITORIO
 touch README.md
-echo texto descriptivo del repositorio >> README.md
-git add README.md
+# modificar el archivo README creado
+echo texto descriptivo del repositorio >> README.md 
+# CREAR .gitignore
+touch .gitignore
+# modificar y añadir los archivos que se desean excluir del versionamiento.
+# *.pdf
+# *.tex
+# preparar los cambios para commit
+git add .
+# enviar los cambios
+git commit -m "primer commit"
 
 # SUBIR AL REPOSITORIO REMOTO (EN GITHUB)
 git remote add origin https://github.com/NOMBRE_DE_USUARIO/NOMBRE_DEL_REPOSITORIO.git
