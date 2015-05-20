@@ -52,7 +52,7 @@ $_SESSION = array(); // Eliminamos todas las variables de sesión
 if ( ini_get( "session.use_cookies" ) ) {
     $params = session_get_cookie_params();
     // En este caso eliminamos la cookie seteando el valor a vacío
-    setcookie( session_name(), '', 1,
+    setcookie( session_name(), '', 0,
         $params["path"], $params["domain"],
         $params["secure"], $params["httponly"]
     );

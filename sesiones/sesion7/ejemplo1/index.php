@@ -1,5 +1,5 @@
 <?php
-include('./php/index.php');
+include('./php/p_index.php');
 ?>
  
 <html>

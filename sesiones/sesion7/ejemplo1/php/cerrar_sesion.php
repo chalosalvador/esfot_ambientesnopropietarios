@@ -1,5 +1,5 @@
 <?php
-session_start();
+// session_start();
 $_SESSION = array();
 
 // Si se desea destruir la sesión completamente, borre también la cookie de sesión.

@@ -1,5 +1,5 @@
 <?php
-include('./php/inicio.php');
+include('./php/p_inicio.php');
 ?>
 
 <html>
@@ -13,7 +13,8 @@ include('./php/inicio.php');
         <?php print_r($_SESSION); ?>
       </pre>
       <section>
-        <p>Tu nombre de usuario es <?=$_SESSION['username'];?></p>
+        <p>Tu nombre de usuario es <?=$_SESSION['username'];?>
+        </p>
       </section>
     </div>
  

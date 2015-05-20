@@ -1,9 +1,9 @@
 Options +MultiViews
 
-php_value auto_prepend_file C:\xampp\htdocs\anp\ejemplos\sesion2\inc\config.php
+php_value auto_prepend_file C:\xampp\htdocs\anp\ejemplos\s7\ejemplo2\inc\config.php
 #php_value auto_prepend_file /home/sesion/public_html/lib/config.php
 
-php_value include_path C:\xampp\htdocs\anp\ejemplos\sesion2\php;C:\xampp\htdocs\anp\ejemplos\sesion2\inc
+php_value include_path C:\xampp\htdocs\anp\ejemplos\s7\ejemplo2\php;C:\xampp\htdocs\anp\ejemplos\s7\ejemplo2\inc
 #php_value include_path #.:/home/sesion/public_html/lib/:/home/sesion/public_html/lib/clases:/home/sesion/public_html/:/home/sesion/public_html/lib/smarty-2.6.22
 
 # php_value display_errors 1

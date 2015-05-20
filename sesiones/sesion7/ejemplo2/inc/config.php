@@ -22,12 +22,14 @@
  */
 session_start();
 
+// Definimos las constantes que nos pueden ser útiles en todo el sitio.
+define('DOCUMENT_ROOT_RELATIVA', '/anp/ejemplos/s7/ejemplo2/');
+define('DOCUMENT_ROOT', $_SERVER['DOCUMENT_ROOT']);
+
 // incluimos las utilidades
 require_once( 'utils.php' );
 
-// Definimos las constantes que nos pueden ser útiles en todo el sitio.
-define('DOCUMENT_ROOT_RELATIVA', '/anp/ejemplos/sesion2/');
-define('DOCUMENT_ROOT', $_SERVER['DOCUMENT_ROOT']);
+
 
 
 // Si no hay una sesión creada, redireccionar al index para que inicie sesión.
