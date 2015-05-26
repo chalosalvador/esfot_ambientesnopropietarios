@@ -1,0 +1,71 @@
+NOTA: La calidad del código, identación, claridad, nombre de variables, funciones
+estándar de nombres, etc también será calificado sobre 1 punto.
+
+Escribir un sitio PHP que cuente con las siguientes páginas:
+1. index.php: Un formulario de inicio de sesión que contenga:
+      - Usuario
+      - Contraseña
+      - Un botón "Ingresar" que inicie la sesión del usuario.
+  
+  a) Para iniciar sesión se debe cumplir con las siguientes condiciones:
+      * Los campos Usuario y contraseña deben estar llenos.
+      * El usuario está en la siguiente lista (esta lista debe ser almacenada en 
+        un array):
+          usuario           contraseña
+          juan              123456
+          maria             654321
+          andres            0987654
+
+  b) Si la sesión es iniciada, el usuario debe ser dirigido a la página 
+      inicio.php
+
+  c) Utilizar el archivo .htaccess de manera que se pueda reutilizar código 
+    eficientemente, es decir, se debe contar con un archivo config.php que contenga funciones en común y que no 
+    permita cargar la página inicio.php si el usuario no tiene una sesión válida.
+    En caso de no existir sesión válida se debe redirigir al index.php
+      * El parámetro para el .htaccess es:
+          php_value auto_prepend_file
+
+2. inicio.php: Debe contener un formulario con:
+        - Un select con las opciones:
+            1. "Ver notas de programación"
+            2. "Ver notas de redes"
+            NOTA: Siempre debe estar al menos una de las dos opciones seleccionada.
+        - Un checkbox "Presentar tabla a colores" (su función se detalla en el punto 3).
+        - Un botón "Ver" que al darle clic dirija a la misma página pero que muestre una tabla HTML con una de las siguientes
+               listas dependiendo de la opción de del select seleccionada:
+
+           Programación                          Redes
+        Estudiante    Nota               Estudiante    Nota
+        Pedro          8                 Gabriela       6
+        David          3                 Maria          9
+        Andrea         10                Andrea         10
+        Esteban        7
+        Daniela        10
+
+      * Las tablas HTML deben ser generadas dinámicamente, es decir se debe 
+        almacenar las listas de estudiantes en arreglos y generar las tablas
+        con PHP.
+
+3. css/estilos.css: Si el checkbox "Presentar tabla a colores" está 
+                    seleccionado se debe incluir un archivo CSS que cambie los 
+                    colores de la tabla, caso contrario se presentarán las 
+                    tablas en blanco y negro:
+                      Color fondo tablas: #eca403
+                      Color borde tablas: #4285f4
+                      Color letras: #ffffff 
+                      Encabezado de tablas con negrita
+
+1 PUNTO EXTRA:
+  - Mostrar los mensajes correspondientes cuando existe un error en el inicio de
+    sesión. Ej: 
+    * Si el usuario envía el formulario de inicio de sesión con el 
+      campo "Usuario" vacío, se debe mostrar un mensaje en el index.php que diga:
+      "Por favor ingrese el nombre de usuario."
+    * Si el usuario envía el formulario de inicio de sesión con el 
+      campo "contraseña" vacío, se debe mostrar un mensaje en el index.php que 
+      diga:
+      "Por favor ingrese su contraseña."
+    * Si el usuario o contraseña son incorrectos mostrar:
+      'Usuario y contraseña incorrecta.'
+
