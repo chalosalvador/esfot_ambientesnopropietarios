@@ -1,0 +1,3 @@
+Options +MultiViews
+
+php_value auto_prepend_file C:\xampp\htdocs\anp\ejemplos\s9\inc\config.php
