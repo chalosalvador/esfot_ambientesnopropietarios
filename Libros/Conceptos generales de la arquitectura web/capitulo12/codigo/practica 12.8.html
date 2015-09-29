@@ -1,0 +1,8 @@
+function valida3(formulario) {  
+    var correo /^[^@\s]+@[^@\.\s]+(\.[^@\.\s]+)+$/           
+    if (!(correo.test(formulario.campo1.value))) {   
+        alert('Contenido del campo1 no es CORREO ELECTR&Oacute;NICO v&aacute;lido.');
+        return false; }
+
+    return true;
+}  

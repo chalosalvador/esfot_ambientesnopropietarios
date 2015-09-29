@@ -1,0 +1,22 @@
+P  {
+ font-size: 12pt;
+ font-family: arial,helvetica;
+ font-weight: bolder;
+ font-style: italic;
+ }
+H1  {
+ color: orange;
+ font-size: 36pt;
+ font-family: verdana,arial;
+}
+
+TD  {
+ color: blue;
+ font-size: 11pt;
+ font-family: verdana,arial;
+}
+BODY  {
+ font-family: arial;
+ color: Black;
+ font-style: normal;
+}

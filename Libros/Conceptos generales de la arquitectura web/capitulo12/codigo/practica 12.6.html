@@ -1,0 +1,12 @@
+function Valida(formulario) {
+  if ((formulario.campo1.value.length == 0) || (formulario.campo2.value.length ==0)) {
+    alert('falta informaci&oacute;n'); 
+	return false;
+  }
+    if (isNaN(parseInt(formulario.campo2.value))) {
+    alert('el campo2 debe ser un n&uacute;mero'); 
+	return false;
+  }   
+
+  return true
+  }

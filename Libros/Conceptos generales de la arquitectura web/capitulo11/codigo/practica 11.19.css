@@ -1,0 +1,22 @@
+P {
+line-height: 1cm;
+text-decoration: underline;
+text-align: justify;
+text-transform: capitalize;
+text-indent: 2cm;
+}
+H1 {
+text-align: right;
+text-transform: uppercase;
+}
+TD {
+text-decoration : line-through;
+text-transform: lowercase;
+}
+BODY {
+line-height: 1cm;
+text-decoration: none;
+text-align: left;
+text-transform: lowercase;
+text-indent: 5cm;
+}

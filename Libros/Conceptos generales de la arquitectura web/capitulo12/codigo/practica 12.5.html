@@ -1,0 +1,22 @@
+<html>
+<head>
+<script>
+function Valida(formulario) {
+  if ((formulario.campo1.value.length == 0) || (formulario.campo2.value.length ==0)) {
+    alert('falta informaci&oacute;n'); 
+	return false
+  }
+  return true
+  }
+</script>
+<body>
+<form name="miFormulario" action="mailto:mi@mail.com"
+onSubmit="return Valida(this);">
+Campo1 <input type="text" name="campo1">
+<br>
+Campo2 <input type="text" name="campo2">
+<br>
+<input type="submit" value="Enviar" name="enviar">
+</form>
+</body>
+</html>

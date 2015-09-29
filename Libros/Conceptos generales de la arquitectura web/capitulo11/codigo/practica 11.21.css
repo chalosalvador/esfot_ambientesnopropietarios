@@ -1,0 +1,18 @@
+P  {
+border-color:orange;
+margin-left: 2cm; 
+border-style: solid; 
+border-width: 10px; 
+ }
+H1  {
+clear: right;
+border-color:black;
+border-style:dotted;
+margin-top: 10px; 
+}
+TABLE  {
+border-color:red;
+margin-left: 6cm; 
+border-style: double; 
+border-width: 20px; 
+}

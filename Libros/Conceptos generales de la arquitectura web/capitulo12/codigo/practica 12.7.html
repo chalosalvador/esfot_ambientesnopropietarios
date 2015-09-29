@@ -1,0 +1,12 @@
+function valida2(formulario) {  
+    var cp=/(^([0-9]{5,5})|^)$/         
+    var dni=/(^([0-9]{8,8}\-[A-Z])|^)$/
+    if (!(cp.test(formulario.campo1.value))) {   
+        alert('Contenido del campo1 no es un C&Oacute;DIGO POSTAL');
+        return false; }
+
+    if (!(dni.test(formulario.campo2.value))) {   
+        alert('Contenido del campo2 no es un DNI v&aacute;lido.');
+        return false;  }    
+      return true;
+}  
