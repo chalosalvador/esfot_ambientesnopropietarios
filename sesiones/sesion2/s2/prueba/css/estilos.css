@@ -1,0 +1,7 @@
+div{
+	background-color: #cccccc;
+}
+
+div:hover{
+	background-color: red;
+}
