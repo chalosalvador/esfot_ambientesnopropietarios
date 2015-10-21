@@ -1,0 +1,7 @@
+Luis Borja, Solange Galarza, Jessica Arciniega (Joomla)
+Jessica Olivo, Patricio Betancourt, Hugo Granda (Drupal o Workbench)
+Ronny Veloz, Marcelo Prado, Jorge Tapia (Angular.js o Laravel)
+Diego Paredes (Wordpress)
+Gustavo Gijarro (LimeSurvey)
+Jefferson Morocho, Paul Guamaní, John Sanchez (Django, Python)
+Juan Villacis, Jessica Loachamin, Vinicio Guachamin (Android)
