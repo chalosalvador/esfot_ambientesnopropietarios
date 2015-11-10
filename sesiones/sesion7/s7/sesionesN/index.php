@@ -1,5 +1,5 @@
 <?php
-// include('inc/config.php');
+include('inc/config.php');
 include('php/p_index.php');
 // echo '<pre>';
 // print_r($_SERVER);
@@ -16,10 +16,10 @@ include('php/p_index.php');
         <div><?php echo $msg; ?></div>
       <?php endif; ?>
      <h1>Creación de una sesión</h1>
-     <form action="./index.php" method="POST">
+     <form action="" method="POST">
        <p>
-         <label>Nombre de usuario:</label>
-         <input type="text" name="username" />
+         <label>Email:</label>
+         <input type="text" name="email" />
        </p>
        <p>
          <label>Contraseña:</label>

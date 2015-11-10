@@ -22,7 +22,7 @@
 session_start();
 
 // Definimos las constantes que nos pueden ser útiles en todo el sitio.
-define('DOCUMENT_ROOT_RELATIVA', '/anp/sesiones/sesion7/s7/sesiones/');
+define('DOCUMENT_ROOT_RELATIVA', '/anp/sesiones/sesion7/s7/sesionesN/');
 define('DOCUMENT_ROOT', $_SERVER['DOCUMENT_ROOT']);
 
 // incluimos las utilidades
@@ -36,7 +36,7 @@ require_once( 'utils.php' );
 // echo '/' . urlencode(DOCUMENT_ROOT_RELATIVA) . 'index.php[\?\w*]?/';
 if( !preg_match( "/" . urlencode(DOCUMENT_ROOT_RELATIVA) . 'index.php[\?\w*]?/', urlencode($_SERVER['REQUEST_URI']))  &&
  $_SERVER['REQUEST_URI'] != DOCUMENT_ROOT_RELATIVA . 'registro.php' ){
-  if( !isset( $_SESSION['username'] ) ) {
+  if( !isset( $_SESSION['email'] ) ) {
     http_redirect( 'index.php' );
   }
 }
