@@ -1,6 +1,5 @@
 <?php
-include('inc/config.php');
-include('php/p_index.php');
+include('p_index.php');
 // echo '<pre>';
 // print_r($_SERVER);
 // echo '</pre>';

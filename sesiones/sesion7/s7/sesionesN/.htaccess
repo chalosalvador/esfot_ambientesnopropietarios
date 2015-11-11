@@ -1,0 +1,6 @@
+#Redirect 301 http://localhost/anp/sesiones/sesion7/s7/sesionesN/pagina_antigua.php http://localhost/anp/sesiones/sesion7/s7/sesionesN/nueva_pagina.php
+
+#php_value max_excecution_time 3600
+#php_value upload_max_filesize 30M
+php_value auto_prepend_file inc\config.php
+php_value include_path php;inc

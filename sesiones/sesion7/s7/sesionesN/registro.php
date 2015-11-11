@@ -1,5 +1,4 @@
-<?php require('inc/config.php'); ?>
-<?php require('php/p_registro.php'); ?>
+<?php require('p_registro.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
