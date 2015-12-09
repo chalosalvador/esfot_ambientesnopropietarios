@@ -1,0 +1,37 @@
+#menu{
+  height: 50px;
+  background-color: red;
+}
+
+#header{
+  height: 300px;
+  background-color: #CCCCCC;
+}
+
+#header img{
+  height: 300px;
+}
+
+#contenido {
+  min-height: 300px;
+}
+
+#izquierda{
+  background-color: yellow;
+  height: 100%;
+}
+
+#centro{
+  background-color: green;
+  height: 100%;
+}
+
+#derecha{
+  background-color: #333333;
+  height: 100%;
+}
+
+#footer{
+  height: 80px;
+  border: 1px solid black;
+}
