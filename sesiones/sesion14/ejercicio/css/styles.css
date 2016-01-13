@@ -1,0 +1,51 @@
+body{     
+
+background-color:#EFF1F6;
+color :#0E385F;
+text-align:center;
+}
+
+#form { 
+
+width: 500px;
+height: 500px;
+ 
+  position: absolute;
+  top: 20%;
+  left:35%;
+
+}
+
+#titulo1{
+	
+	text-align:left;
+	color :#0E385F;
+	font-size:20px;
+}
+
+#enlance{
+	color :#3B59AE;
+	font-size:13px;
+
+}
+
+#btnRegistrar{
+	
+	background-color:#669E51;
+	color:white;
+	width:150;
+	height:35;
+}
+
+#txtBox
+{
+	border-color:#6D83B2;
+	border-style:solid;
+	width:300;
+	height:35;
+}
+
+
+
+
+
